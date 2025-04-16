@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invest Mony - Plataforma de Investimento</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #00ffcc;
+    }
+    section {
+      padding: 20px;
+    }
+    .btn {
+      background-color: #00ffcc;
+      color: #000;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .highlight {
+      color: #00ffcc;
+    }
+    footer {
+      background-color: #1e1e1e;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Invest Mony</h1>
+    <p>Plataforma de Investimento Profissional</p>
+  </header>
+  
+  <section>
+    <h2>Como Funciona</h2>
+    <p>Invista qualquer valor e receba diariamente até 10% durante um mês.</p>
+    <p>Bônus por indicação! Convide amigos e ganhe até <strong>3 dólares</strong> por cada novo investidor.</p>
+  </section>
+
+  <section>
+    <h2>Cadastre-se</h2>
+    <form>
+      <label>Nome:</label><br>
+      <input type="text" required><br><br>
+      <label>Email:</label><br>
+      <input type="email" required><br><br>
+      <label>Valor para investir (em dólares):</label><br>
+      <input type="number" required><br><br>
+      <button class="btn">Investir com PayPal</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Recomendações</h2>
+    <p>⭐⭐⭐⭐⭐ “O melhor site de investimento que já usei!”</p>
+    <p>⭐⭐⭐⭐⭐ “Muito seguro e pagam certinho!”</p>
+    <p>+ de <strong>1.000 usuários ativos</strong> no mundo!</p>
+  </section>
+
+  <footer>
+    <p>© Invest Mony - Plataforma ativa há mais de 13 anos.</p>
+  </footer>
+</body>
+</html>
